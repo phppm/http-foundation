@@ -102,11 +102,6 @@ class Request extends BaseRequest implements Arrayable, RequestContract
         $this->Request->has($key);
     }
 
-    protected function isEmptyString($key)
-    {
-        $this->Request->isEmptyString($key);
-    }
-
     public function all()
     {
         $this->Request->all();
